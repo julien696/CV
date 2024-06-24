@@ -10,6 +10,7 @@ h1, h2, h3{
 
 body{
     width: 1160px;
+    margin: auto;
 }
 
 header{
@@ -41,6 +42,37 @@ address{
 a{
     color: white;
     text-decoration: none;
+}
+
+#structure{
+    display: flex;
+    flex-direction: row;
+}
+
+#structure h2{
+    background-color: #dbc2a4 ;
+}
+
+#left{
+    width: 33%;
+    background-color: #782221;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+p{
+    color: white;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+#left ul{
+    padding-inline-start: 20px;
+    color: white;
+
+}
+#right{
+    width: 66%;
 }
 
 #logo{
