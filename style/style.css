@@ -99,6 +99,13 @@ p{
 
 /* fin colonne de droit début footer*/
 
+footer{
+    background-color: #782221;
+    text-align: center;
+    color: white;
+}
+
 #logo{
     width: 48px;
+    margin: 20px 10px;
 }
