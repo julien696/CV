@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Lato";
+    src: url(../fonts/Lato-Regular.woff2);
+    src: url(../fonts/Lato-Regular.ttf) format(truetype);
+}
+
+h1, h2, h3{
+    font-family:"Lato",sans-serif;
+} 
+
+body{
+    width: 1160px;
+}
+
+header{
+    background-color: #782221;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+
+#avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px 5px black, -5px 0px 10px 5px black;
+}
+
+
+#logo{
+    width: 48px;
+}
