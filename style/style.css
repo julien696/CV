@@ -26,9 +26,22 @@ header{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    box-shadow: 5px 5px 10px 5px black, -5px 0px 10px 5px black;
+    object-fit: cover;
+    box-shadow: 5px 5px 10px 5px black , -5px 0px 10px 5px black;
 }
 
+address{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 20px;
+   background-color: #2c1d27;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
 
 #logo{
     width: 48px;
