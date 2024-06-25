@@ -15,7 +15,7 @@ h1, h2, h3{
 } 
 
 body{
-    width: 1160px;
+    max-width: 1160px;
     margin: auto;
 }
 
@@ -34,7 +34,7 @@ header{
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 5px 5px 10px 5px black , -5px 0px 10px 5px black;
+    box-shadow: 3px 0px 3px 5px grey , -3px 0px 3px 5px grey;
 }
 
 /*début du main*/
@@ -56,6 +56,7 @@ a{
 #structure{
     display: flex;
     flex-direction: row;
+    
 }
 
 #structure h2{
